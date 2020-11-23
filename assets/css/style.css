@@ -1,0 +1,78 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.our-team{
+	width: 100%;
+	height: 600px;
+	margin: 50px auto;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	padding: 20px 0;
+	color: rgba(0,0,0,.6);
+}
+.team{
+	width: 33%;
+	float: left;
+	border: 1px solid #fff;
+}
+.our-team .team img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	/*border-radius: 50%;*/
+	margin: 20px auto;
+}
+.our-team .team h3{
+	font-family: serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	padding: 10px 0;
+
+}
+.our-team .team h4{
+	font-family: serif;
+	text-transform: uppercase;;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+
+}
+.our-team .team p{
+	width: 200px;
+	font-family: serif;
+	color: rgba(0,0,0,.8);
+	text-align: center;
+	padding: 5px 0;
+	margin: auto;
+
+}
+.social ul{
+	width: 100%;
+	text-align: center;
+}
+.social ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+	transition: .3s;
+}
+.fa-facebook-f{
+	color: #4867AA;
+}
+.fa-twitter{
+	color: #50ABF1;
+}
+.fa-linkedin{
+	color: #0077B5;
+}
+.fa-instagram{
+	color: #9561C1;
+}
+.social ul li:hover i{
+	color: #000;
+}
